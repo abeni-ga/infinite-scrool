@@ -61,7 +61,6 @@ async function getPhotos() {
     const response = await fetch(apiUrl);
     photoArray = await response.json();
     displayImages();
-    console.log(data);
 
 }
 
